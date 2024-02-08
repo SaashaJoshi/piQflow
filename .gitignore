@@ -168,5 +168,9 @@ mlruns/
 mlartifacts/
 outputs/
 mlruns.db
+<<<<<<< HEAD
 **/basic_auth.db
 >>>>>>> 775a656 (add mlflow run for qcnn estimator)
+=======
+**/basic_auth.db
+>>>>>>> a3e6661 (solve merge conflicts)
