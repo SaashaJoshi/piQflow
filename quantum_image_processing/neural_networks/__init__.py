@@ -8,10 +8,9 @@
 # copyright notice, and modified files need to carry a notice indicating
 # that they have been altered from the originals.
 
-"""conftest.py"""
+"""Neural Network Structures"""
 
-# pylint: disable=unused-import
-from tests.data_encoder.image_representations.test_frqi import (
-    circuit_pixel_position_fixture,
-)
-from tests.tensor_networks.test_mps import parameterization_mapper_fixture
+from .quantum_neural_network import QuantumNeuralNetwork
+from .qcnn import QCNN
+
+__all__ = ["QuantumNeuralNetwork", "QCNN"]

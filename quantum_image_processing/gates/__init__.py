@@ -8,10 +8,15 @@
 # copyright notice, and modified files need to carry a notice indicating
 # that they have been altered from the originals.
 
-"""conftest.py"""
+"""
+Gate implementations, including unitary gates and their alternative parameterization.
+(module: quantum_image_processing.gates)
+"""
 
-# pylint: disable=unused-import
-from tests.data_encoder.image_representations.test_frqi import (
-    circuit_pixel_position_fixture,
-)
-from tests.tensor_networks.test_mps import parameterization_mapper_fixture
+from .unitary_block import UnitaryBlock
+from .two_qubit_unitary import TwoQubitUnitary
+
+__all__ = [
+    "UnitaryBlock",
+    "TwoQubitUnitary",
+]

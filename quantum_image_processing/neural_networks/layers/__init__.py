@@ -8,10 +8,17 @@
 # copyright notice, and modified files need to carry a notice indicating
 # that they have been altered from the originals.
 
-"""conftest.py"""
+"""Neural Network Layers"""
 
-# pylint: disable=unused-import
-from tests.data_encoder.image_representations.test_frqi import (
-    circuit_pixel_position_fixture,
-)
-from tests.tensor_networks.test_mps import parameterization_mapper_fixture
+from .base_layer import BaseLayer
+from .convolutional_layer import QuantumConvolutionalLayer
+from .pooling_layer import QuantumPoolingLayer2, QuantumPoolingLayer3
+from .fully_connected_layer import FullyConnectedLayer
+
+__all__ = [
+    "BaseLayer",
+    "QuantumConvolutionalLayer",
+    "QuantumPoolingLayer2",
+    "QuantumPoolingLayer3",
+    "FullyConnectedLayer",
+]
