@@ -21,7 +21,11 @@ torchvision==0.17.0
 mlflow==2.10.1
 pytest==8.0.0
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ae249ce (Package updates to requirements file (#54))
 =======
 >>>>>>> origin
 >>>>>>> a3e6661 (solve merge conflicts)
+=======
+>>>>>>> origin
+>>>>>>> 4420b37 (Merge remote-tracking branch 'origin' into model-registry)
