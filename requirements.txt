@@ -23,6 +23,7 @@ pytest==8.0.0
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ae249ce (Package updates to requirements file (#54))
 =======
 >>>>>>> origin
@@ -33,3 +34,5 @@ pytest==8.0.0
 =======
 >>>>>>> origin
 >>>>>>> 9adf4d6 (Merge remote-tracking branch 'origin' into model-registry)
+=======
+>>>>>>> 26fca6d (undetected error in requirements)
