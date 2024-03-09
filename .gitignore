@@ -170,6 +170,7 @@ outputs/
 mlruns.db
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **/basic_auth.db
 >>>>>>> 775a656 (add mlflow run for qcnn estimator)
 =======
@@ -178,3 +179,6 @@ mlruns.db
 =======
 **/basic_auth.db
 >>>>>>> 4420b37 (Merge remote-tracking branch 'origin' into model-registry)
+=======
+**/basic_auth.db
+>>>>>>> 9adf4d6 (Merge remote-tracking branch 'origin' into model-registry)
