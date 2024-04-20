@@ -21,7 +21,7 @@ torch==2.2.0
 torchvision==0.17.0
 =======
 matplotlib==3.7.5
-qiskit==1.0.2
+qiskit>=1.0.0
 qiskit_algorithms==0.3.0
 qiskit_ibm_runtime==0.22.0
 qiskit_ibm_provider==0.10.0
@@ -29,6 +29,7 @@ qiskit_machine_learning==0.7.2
 setuptools==69.2.0
 torch==2.2.1
 torchvision==0.17.1
+<<<<<<< HEAD
 >>>>>>> c71c550 (Bump to qiskit 1.0 (#78))
 mlflow==2.10.1
 pytest==8.0.0
@@ -48,3 +49,7 @@ pytest==8.0.0
 >>>>>>> 9adf4d6 (Merge remote-tracking branch 'origin' into model-registry)
 =======
 >>>>>>> 26fca6d (undetected error in requirements)
+=======
+mlflow>=2.10.1
+pytest==8.0.0
+>>>>>>> 1b6ad20 (Add files for PyPi deployment (#82))
