@@ -1,0 +1,20 @@
+name: MLflow Workflow for QCNN
+
+conda_env: conda_env.yaml
+
+entry_points:
+    # Data Processing Stage
+    load_dataset:
+        parameters:
+            img_size: {default: 28}
+            batch_size: {default: None}
+            labels: {default: None}
+            norm_min: {default: None}
+            norm_max: {default: None}
+        command: "python data_loading.py --img_size {img_size} --batch_size {batch_size} --labels {labels} --norm_min {norm_min} --norm_max {norm_max}"
+
+    # Quantum Circuit Preparation Stage
+    data_embedding:
+        parameters:
+            img_dims: {type: tuple}
+        command: "python data_embedding.py --img_dims {img_dims}"
